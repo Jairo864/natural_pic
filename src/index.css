@@ -1,0 +1,77 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+.Bnav{
+  display: flex;
+  background-color: #43a047;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  font-size: large;
+  gap: 0.5rem;
+  padding: 1rem;
+  margin-bottom: 1em;
+
+}
+.active{
+  color:yellow;
+  font-weight: bold;
+}
+.inActive{
+  color:white;
+}
+
+h1{
+  text-align: center;
+  margin-bottom: 0.5em;
+  color: #43a047;
+}
+
+.rowStyle{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  }
+
+.card{
+  position: relative;
+  width: auto;
+  margin-right: 0.5em;
+  margin-left: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.overlay{
+  position: absolute;
+  bottom: 0.5px;
+  right: 100px;
+  left: 0;
+  width: 70%;
+  height: auto;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  color: white;
+  padding: 5px;
+ }
+
+.overlayHeart{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  top: 10px;
+ }
+.text{
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-size: 24px;
+  text-align: center;
+  padding: 10px;
+}
